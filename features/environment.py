@@ -17,3 +17,6 @@ def before_scenario(context, scenario):
 	options.add_argument('--disable-gpu')
 
 	context.browser = webdriver.Chrome(chrome_options=options)
+
+def after_scenario(context, scenario):
+	context.browser.quit()
