@@ -4,5 +4,4 @@ Run your Selenium BDD test cases in Docker. Python, Selenium, Behave, Chrome, Do
 
 # Demo
 **`Behave`** is Python-Selenium equivalent of **`Cucumber`** Ruby-Capybara. You can run your BBD test cases in the same way with some little differences. See the demo which runs Behave in Docker:
-
 ![Behave demo GIF](img/behave.gif)
