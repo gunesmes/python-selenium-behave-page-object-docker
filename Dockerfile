@@ -27,6 +27,8 @@ RUN wget https://chromedriver.storage.googleapis.com/2.42/chromedriver_linux64.z
 # install Python packages
 RUN pip3 install selenium
 RUN pip3 install behave
+RUN pip3 install allure-behave
+
 
 # create seperate folder for project
 RUN mkdir /project
