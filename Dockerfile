@@ -28,6 +28,7 @@ RUN wget https://chromedriver.storage.googleapis.com/2.42/chromedriver_linux64.z
 RUN pip3 install selenium
 RUN pip3 install behave
 RUN pip3 install allure-behave
+RUN pip3 install pyquery
 
 
 # create seperate folder for project
